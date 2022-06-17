@@ -6,3 +6,10 @@
             //? reverse("Happy") ➞ yppaH
 
 
+reversed=(a)=>{
+    b = a.split("");
+    c= b.reverse().join("");
+    console.log(c)
+}
+reversed("Clarusway Rocks!");
+reversed("Happy");
